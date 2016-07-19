@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" 
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radio_button_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/all_activity_hot" 
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_activity_time" 
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/activity_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

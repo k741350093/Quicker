@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+   
+     <include layout="@layout/layout_titlebar" /> 
+     <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/gray_font"
+        android:textSize="15sp"
+        android:text="@string/tv_tips_password"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"/>
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:hint="@string/et_password_hint"
+        android:background="@drawable/register_phone_bg"/>
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/gray_font"
+        android:textSize="15sp"
+        android:text="@string/tv_tips_passwordagain"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"/>
+    
+    <EditText
+        android:id="@+id/passwordagain"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:hint="@string/et_password_hint"
+        android:background="@drawable/register_phone_bg"/>
+   
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/gray_font"
+        android:textSize="15sp"
+        android:text="@string/tv_tips_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"/>
+    
+    <EditText
+        android:id="@+id/email"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:hint="@string/et_email_hint"
+        android:background="@drawable/register_phone_bg"/>
+     
+    
+    <Button 
+        android:id="@+id/register_complete"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_btn"
+        android:textSize="18sp"
+        android:textColor="@color/whites"
+        android:text="@string/register_complete"/>
+
+</LinearLayout>

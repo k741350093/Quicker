@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#F4F4F4" >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center"
+        android:singleLine="true"
+        android:text="新用户注册"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/tv_forget_password"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:text="@string/btn_back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#00000000"
+        android:textColor="@color/blue"
+        android:drawableLeft="@drawable/btn_back"
+        android:textSize="16sp"/> 
+   
+
+</RelativeLayout>

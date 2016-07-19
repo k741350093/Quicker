@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+ <LinearLayout
+        android:id="@+id/ll_phone"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+      
+        android:orientation="horizontal"
+        android:background="@drawable/register_phone_bg">
+        
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/notice_imagine1"/>
+        
+        <TextView 
+            android:layout_height="80dp"
+            android:layout_width="220dp"
+            android:gravity="center"
+        
+            android:text="2016年信软学生寒假离校时间与离校方式登记表"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/devide_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="                       32/40                一键提醒"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+  </LinearLayout>
+  
+   <LinearLayout
+
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+      
+        android:orientation="horizontal"
+        android:background="@drawable/register_phone_bg">
+        
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/notice_imagine1"/>
+        
+        <TextView 
+            android:layout_height="80dp"
+            android:layout_width="220dp"
+            android:gravity="center"
+        
+            android:text="2016年春季信软学院教材征订登记表"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/devide_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="                       28/40                一键提醒"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+  </LinearLayout>
+  
+    <LinearLayout
+            android:layout_height="80dp"
+        android:layout_width="match_parent"
+      
+        android:orientation="horizontal"
+        android:background="@drawable/register_phone_bg">
+        
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/notice_imagine1"/>
+        
+        <TextView 
+            android:layout_height="80dp"
+            android:layout_width="220dp"
+            android:gravity="center"
+        
+            android:text="“辅导员测评”记录"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/devide_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="                       36/40                一键提醒"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+  </LinearLayout>
+  
+     <LinearLayout
+
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+      
+        android:orientation="horizontal"
+        android:background="@drawable/register_phone_bg">
+        
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/notice_imagine1"/>
+        
+        <TextView 
+            android:layout_height="80dp"
+            android:layout_width="220dp"
+            android:gravity="center"
+        
+            android:text="“本学期最后一次补办学生证”登记表"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/devide_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="                       6/40                一键提醒"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+  </LinearLayout>
+  
+      <LinearLayout
+    
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+      
+        android:orientation="horizontal"
+        android:background="@drawable/register_phone_bg">
+        
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/notice_imagine1"/>
+        
+        <TextView 
+            android:layout_height="80dp"
+            android:layout_width="220dp"
+            android:gravity="center"
+        
+            android:text="2016年元旦学生离校时间登记表"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/devide_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="                       28/40                一键提醒"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+  </LinearLayout>
+  
+       <LinearLayout
+    
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+      
+        android:orientation="horizontal"
+        android:background="@drawable/register_phone_bg">
+        
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:background="@drawable/notice_imagine1"/>
+        
+        <TextView 
+            android:layout_height="80dp"
+            android:layout_width="220dp"
+            android:gravity="center"
+        
+            android:text="“综合素质调查问卷”完成情况"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <View 
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/devide_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="                       39/40                一键提醒"
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+  </LinearLayout>
+  
+  
+        
+  
+</LinearLayout>

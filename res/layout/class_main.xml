@@ -1,0 +1,67 @@
+<RelativeLayout android:id="@+id/main_layout" 
+    android:background="@color/activity_bg_color" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <RelativeLayout android:id="@+id/title_bar" style="@style/main_title_bar_style">
+        <FrameLayout android:id="@+id/top_head_container" 
+            android:paddingLeft="10.0dip" 
+            android:paddingRight="10.0dip" 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" 
+                android:id="@+id/top_head" 
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/btn_back2" 
+                android:padding="2.0dip" 
+                android:layout_width="@dimen/head_size" 
+                android:layout_height="@dimen/head_size" 
+                android:scaleType="fitXY" />
+        </FrameLayout>
+	    <RelativeLayout android:id="@+id/title_click_layout" 
+            android:paddingLeft="13.0dip" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_centerInParent="true">
+            <FrameLayout android:id="@+id/title_parent" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_centerVertical="true">
+                <TextView
+                    android:id="@+id/text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="center_horizontal|center"
+                    android:singleLine="true"
+                    android:text="@string/tltle_class"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </FrameLayout>
+        </RelativeLayout>
+   </RelativeLayout>
+	
+    <RelativeLayout android:id="@+id/category_layout" 
+        android:background="@drawable/bg_category_bar" 
+        android:layout_width="fill_parent" 
+        android:layout_height="@dimen/top_category_height" 
+        android:layout_below="@id/title_bar" >
+		<LinearLayout android:layout_width="wrap_content" 
+           android:layout_height="@dimen/top_category_height"
+           android:layout_alignParentLeft="true" 
+           android:layout_centerVertical="true">   
+			<com.quicker.views.CategoryTabStrip 
+                android:id="@+id/category_strip" 
+                android:paddingLeft="6.0dip" 
+                android:paddingRight="6.0dip" 
+                android:clipToPadding="false" 
+                android:layout_width="wrap_content" 
+                android:layout_height="@dimen/top_category_height" />
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@+id/view_pager" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_below="@id/category_layout" />
+</RelativeLayout>
